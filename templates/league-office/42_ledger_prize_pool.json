@@ -2,7 +2,7 @@
   "embeds": [
     {
       "title": "BLHA PRIZE POOL",
-      "description": "`[SEASON]` • 12 franchises × $150 = $1,800",
+      "description": "`[SEASON]` • 12 franchises × $175 = $2,100",
       "color": 13012757,
       "footer": {
         "text": "BLHA LEAGUE LEDGER"
@@ -30,7 +30,7 @@
         },
         {
           "name": "DYNASTY POT CONTRIBUTION",
-          "value": "$200",
+          "value": "$275",
           "inline": false
         },
         {
@@ -40,7 +40,7 @@
         },
         {
           "name": "LEAGUE ADMINISTRATION FEE",
-          "value": "$100",
+          "value": "$325",
           "inline": false
         }
       ]

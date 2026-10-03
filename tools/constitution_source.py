@@ -15,14 +15,14 @@ Text conventions:
 
 from __future__ import annotations
 
-VERSION = "2.2"
+VERSION = "2.3"
 EDITION = "Charter Edition"
 TAGLINE = "A permanent framework for competition, governance, and long-term franchise management."
-FOOTER = "BLHA CONSTITUTION • VERSION 2.2"
+FOOTER = "BLHA CONSTITUTION • VERSION 2.3"
 
 GLANCE_STATS = [
     ("12", "Franchises"),
-    ("$150", "Annual dues"),
+    ("$175", "Annual dues"),
     ("22", "Regular-season weeks"),
     ("36", "Controlled spots (non-IR)"),
 ]
@@ -39,7 +39,7 @@ QUICK_REFERENCE = [
     ("Trades", "Unlimited, no vote or veto. Deadline: Sunday 11:59 PM ET at the end of Week 20. Reopens the day after the Stanley Cup Final."),
     ("Annual draft", "5 rounds, linear; begins 14–21 days after the NHL Entry Draft."),
     ("Playoffs", "6 teams; top 2 byes; reseeding; 1-week quarterfinals and semifinals; 2-week cumulative championship. Non-playoff teams play a consolation bracket."),
-    ("Dues", "$150 per franchise per season, due before that season's draft."),
+    ("Dues", "$175 per franchise per season, due before that season's draft."),
     ("Future picks", "Future 1st- and 2nd-round picks cannot be traded until all required future-season dues are paid and confirmed through the pick's season."),
     ("Dates", "Defined by formula in this Constitution; exact dates are published each season on the League Calendar."),
 ]
@@ -49,12 +49,13 @@ ALLOCATION = [
     ("Runner-Up", 350),
     ("Third Place", 150),
     ("Presidents' Trophy", 200),
-    ("Dynasty Pot", 200),
+    ("Dynasty Pot", 275),
     ("Fantrax / League Operating Reserve", 150),
-    ("League Administration Fee", 100),
+    ("League Administration Fee", 325),
 ]
-ALLOCATION_TOTAL = 1800
-assert sum(a for _, a in ALLOCATION) == ALLOCATION_TOTAL == 12 * 150
+DUES = 175
+ALLOCATION_TOTAL = 2100
+assert sum(a for _, a in ALLOCATION) == ALLOCATION_TOTAL == 12 * DUES
 
 SKATERS = [("Goal", "+5.00"), ("Assist", "+2.95"), ("Shot on Goal", "+0.55"), ("Block", "+0.35"), ("Hit", "+0.20")]
 GOALIES = [("Game Started", "+6.50"), ("Save", "+0.49"), ("Goal Against", "-5.00"), ("Goalie Goal", "+5.00"), ("Goalie Assist", "+2.95")]
@@ -106,13 +107,13 @@ ARTICLES = [
     {
         "num": "III", "title": "Franchise Ownership, Dues, Expenses, and Prizes", "callout": None,
         "blocks": [
-            ("p", "Annual dues are **$150 per franchise**. A franchise is one dues obligation even when co-owners are present. The Commissioner pays the same annual franchise dues as every other franchise."),
+            ("p", "Annual dues are **$175 per franchise**. A franchise is one dues obligation even when co-owners are present. The Commissioner pays the same annual franchise dues as every other franchise."),
             ("p", "The dues deadline for each Season is published on the League Calendar with at least 30 days' notice and falls before that Season's draft: the Startup Draft for Season 2027 and the Annual Draft for later Seasons. A franchise must be fully paid by that deadline to participate in the draft or begin the Season, unless the Commissioner has announced a league-wide alternative payment schedule."),
             ("p", "The Commissioner announces the accepted payment methods. A payment counts only when the Commissioner has confirmed it and recorded it in the League Ledger."),
             ("p", "If a franchise is not fully paid by the deadline, the Commissioner gives written notice in Discord and by direct message. If payment is still not confirmed 7 days after the deadline, the franchise may be treated as orphaned under Article XVIII, including replacement of the owner."),
-            ("p", "The annual allocation of the $1,800 league pool (12 franchises × $150) is:"),
+            ("p", "The annual allocation of the $2,100 league pool (12 franchises × $175) is:"),
             ("allocation",),
-            ("p", "The League Administration Fee compensates the Commissioner for recurring league administration, setup, records, Discord infrastructure, automation maintenance, league communications, and related management duties. Any increase to the Administration Fee is a Material Amendment. On any vote that changes the Administration Fee, the Commissioner's franchise does not vote and approval requires at least 8 of the other 11 franchises."),
+            ("p", "The League Administration Fee first pays the league's recurring Discord, automation, and hosting costs: bot and application subscriptions, the hosting service that runs the league's automation, and related infrastructure. Each is disclosed in the Season Ledger. Of what remains, up to $100 compensates the Commissioner for recurring league administration, setup, records, automation maintenance, league communications, and related management duties, and any amount beyond that is added to the Dynasty Pot. Any increase to the Administration Fee is a Material Amendment. On any vote that changes the Administration Fee, the Commissioner's franchise does not vote and approval requires at least 8 of the other 11 franchises."),
             ("p", "The League Operating Reserve may be used only for Fantrax Premium and other disclosed, authorized league operating costs. Any portion of the $150 reserve remaining after the Season's authorized expenses are settled is added to the Dynasty Pot."),
             ("p", "Guaranteed competitive prizes will not be reduced during an Active Season to cover an unanticipated operating overage. Any additional assessment or material change to the annual allocation requires league approval under this Constitution."),
             ("p", "Prizes are paid after the competition that earns them is final, and no later than 30 days after the BLHA Championship concludes. Within the same period the Commissioner publishes a Season Ledger in the League Ledger channel showing dues received, prizes paid, operating reserve spending, the Administration Fee, and the Dynasty Pot balance."),
@@ -124,7 +125,7 @@ ARTICLES = [
         "callout": ("DYNASTY POT", "The first franchise to win three BLHA Championships in the same active cycle wins the entire accumulated pot."),
         "blocks": [
             ("p", "The BLHA maintains a rolling Dynasty Pot designed to reward sustained championship success across multiple Seasons. The first Dynasty Pot cycle begins with Season 2027."),
-            ("p", "At least $200 from each Season's dues is added to the Dynasty Pot. Any unused portion of the annual League Operating Reserve is also added to the Dynasty Pot after the Season's authorized expenses are settled."),
+            ("p", "At least $275 from each Season's dues is added to the Dynasty Pot. Any unused portion of the annual League Operating Reserve is also added to the Dynasty Pot after the Season's authorized expenses are settled."),
             ("p", "The first franchise to win three BLHA Championships during the same active Dynasty Pot cycle wins the entire accumulated Dynasty Pot. Championships do not need to be consecutive."),
             ("p", "Championship credit belongs to the franchise, not the individual owner. An ownership change does not erase a franchise's championship count within the active cycle."),
             ("p", "The base Dynasty Pot contribution for the Season in which a franchise wins its third championship is added to the pot before the payout is calculated. The payout is made after the championship result is final and the Season's financial obligations are reconciled."),
@@ -309,8 +310,8 @@ ARTICLES = [
             ("p", "Amendments do not retroactively alter completed competition, previously earned prizes, or finalized transactions."),
             ("p", "**Records.** Official amendment results, effective dates, championship history, Presidents' Trophy winners, Dynasty Pot status, dues status, and other permanent league records are maintained in Discord and/or the league's designated archival system. Each adopted version of this Constitution is numbered, dated, and posted, and prior versions are archived."),
             ("p", "**Dissolution.** If the BLHA permanently dissolves, authorized outstanding league expenses are settled first. Remaining prize funds or other Season-specific funds are distributed according to the results already earned where reasonably possible. Any remaining Dynasty Pot balance is distributed equally among active, fully paid franchises as provided in Article IV."),
-            ("p", "The latest published version of this Constitution is the controlling league document. Upon adoption of Version 2.2, all prior working drafts are superseded except as historical records."),
-            ("history", [("2.2", "Charter Edition. Adopted by owner acceptance. Effective Season 2027.")]),
+            ("p", "The latest published version of this Constitution is the controlling league document. Upon adoption of Version 2.3, all prior working drafts are superseded except as historical records."),
+            ("history", [("2.3", "Charter Edition. Dues set at $175 per franchise and the annual allocation revised to fund Fantrax Premium and the league's Discord and automation costs. Adopted by owner acceptance. Effective Season 2027.")]),
         ],
     },
 ]

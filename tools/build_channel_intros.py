@@ -2,7 +2,7 @@
 """Generate the per-channel intro Discohook templates (one JSON per channel).
 
 Channel names follow the live server. Rules references use the Constitution
-article numbers in tools/constitution_source.py (v2.2). Run the normalizer
+article numbers in tools/constitution_source.py (v2.3). Run the normalizer
 afterwards to attach the category header image and the footer divider:
 
     python3 tools/build_channel_intros.py && python3 tools/normalize_discohook_templates.py
@@ -47,7 +47,7 @@ def card(path: str, title: str, desc: str, footer: str, fields: list[tuple[str, 
 # ------------------------------------------------------------------ League Office
 card("league-office/01_constitution_channel_intro.json", "BLHA CONSTITUTION",
      "The Constitution is the controlling rules document of the Beer League Hockey Association. Every owner accepts it as a condition of joining and is responsible for knowing it.", LO,
-     [("CURRENT DOCUMENT", "**Version:** 2.2 • Charter Edition\n**Effective:** Season 2027 (inaugural season 2027–28)\n**Last amended:** Not yet amended"),
+     [("CURRENT DOCUMENT", "**Version:** 2.3 • Charter Edition\n**Effective:** Season 2027 (inaugural season 2027–28)\n**Last amended:** Not yet amended"),
       ("HOW DATES WORK", "The Constitution defines deadlines by formula. Exact dates for each season are published in **league-calendar** within 14 days after the NHL releases its schedule."),
       ("CHANGING THE RULES", "Material amendments need 8 of 12 franchise votes, are held only in the offseason, and must pass before the dues deadline of the season they first apply to (Article XX). The first amendment vote can happen after Season 2027."),
       ("HOW TO USE THIS CHANNEL", "The current Constitution, adopted amendments and the version history live here. Questions about what a rule means go to **rules-questions**."),

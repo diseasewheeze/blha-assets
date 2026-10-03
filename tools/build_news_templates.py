@@ -64,9 +64,9 @@ tmpl("league-office/40_ledger_season_summary.json", "SEASON LEDGER", "`[SEASON]`
 tmpl("league-office/41_ledger_dues_status.json", "FRANCHISE DUES STATUS", "`[SEASON / DATE]`", "BLHA LEAGUE LEDGER • NO PAYMENT CREDENTIALS POSTED",
      [("PAID AND CONFIRMED", "`[LIST FRANCHISES]`"), ("PREPAID FUTURE SEASONS", "`[FRANCHISE: THROUGH SEASON YYYY]` or none"),
       ("OUTSTANDING", "`[LIST FRANCHISES / NONE]`"), ("DEADLINE", "`[DATE + TIME ET]`")], RECORD)
-tmpl("league-office/42_ledger_prize_pool.json", "BLHA PRIZE POOL", "`[SEASON]` • 12 franchises × $150 = $1,800", "BLHA LEAGUE LEDGER",
+tmpl("league-office/42_ledger_prize_pool.json", "BLHA PRIZE POOL", "`[SEASON]` • 12 franchises × $175 = $2,100", "BLHA LEAGUE LEDGER",
      [("BLHA CHAMPION", "$650"), ("RUNNER-UP", "$350"), ("THIRD PLACE", "$150"), ("PRESIDENTS' TROPHY", "$200"),
-      ("DYNASTY POT CONTRIBUTION", "$200"), ("FANTRAX / LEAGUE OPERATING RESERVE", "$150"), ("LEAGUE ADMINISTRATION FEE", "$100")], RECORD)
+      ("DYNASTY POT CONTRIBUTION", "$275"), ("FANTRAX / LEAGUE OPERATING RESERVE", "$150"), ("LEAGUE ADMINISTRATION FEE", "$325")], RECORD)
 tmpl("league-office/43_ledger_payment_confirmed.json", "PAYMENT CONFIRMED", "`[FRANCHISE]` is confirmed paid through **Season `[YEAR]`**.", "BLHA LEAGUE LEDGER • NO PAYMENT CREDENTIALS POSTED",
      [("COVERS", "`[SEASON DUES / FUTURE-SEASON PREPAYMENT THROUGH YEAR]`"), ("CONFIRMED", "`[DATE]`"),
       ("PENDING TRADE RELEASED", "`[TRADE DESCRIPTION, OR NONE]` — may now become final under Article XII.")], RECORD)

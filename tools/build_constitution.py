@@ -107,7 +107,7 @@ def make_embeds() -> list[dict]:
     alloc = "\n".join(f"• {k} — **${v:,}**" for k, v in S.ALLOCATION)
     embeds.append({
         "title": "ANNUAL FINANCIAL ALLOCATION",
-        "description": f"12 franchises × $150 = **${S.ALLOCATION_TOTAL:,}** annual league pool.\n\n{alloc}\n• **TOTAL — ${S.ALLOCATION_TOTAL:,}**",
+        "description": f"12 franchises × ${S.DUES} = **${S.ALLOCATION_TOTAL:,}** annual league pool.\n\n{alloc}\n• **TOTAL — ${S.ALLOCATION_TOTAL:,}**",
         "color": GOLD, "footer": {"text": S.FOOTER},
     })
     for art in S.ARTICLES:
@@ -285,7 +285,7 @@ def build_pdf(path: Path) -> None:
                             ("TOPPADDING", (0, 0), (-1, -1), 1.7), ("BOTTOMPADDING", (0, 0), (-1, -1), 1.7), ("LEFTPADDING", (0, 0), (-1, -1), 7)]))
     story += [qt, Spacer(1, 8)]
     al_head = [Paragraph("ANNUAL FINANCIAL ALLOCATION", h_sec),
-               Paragraph(f"<b>12 franchises \u00d7 $150 = ${S.ALLOCATION_TOTAL:,} annual league pool.</b>", ParagraphStyle("al", parent=small, textColor=GREY, spaceAfter=5))]
+               Paragraph(f"<b>12 franchises \u00d7 ${S.DUES} = ${S.ALLOCATION_TOTAL:,} annual league pool.</b>", ParagraphStyle("al", parent=small, textColor=GREY, spaceAfter=5))]
 
     def alloc_table():
         data = [[Paragraph('<font name="Body-Bold" color="#FFB81C" size="8.5">ANNUAL ALLOCATION</font>', small), Paragraph('<font name="Body-Bold" color="#FFB81C" size="8.5">AMOUNT</font>', ParagraphStyle("r", parent=small, alignment=2))]]
