@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updated_at": "2026-10-10T22:00:38.919039Z",
+  "updated_at": "2026-10-10T22:45:32.170946Z",
   "seen": [
     {
       "key": "771ee594d7ce1ddf2592b005",
@@ -6802,6 +6802,36 @@
       "source_id": "sportsnet_nhl",
       "tier": 1,
       "seen_at": "2026-10-10T22:00:38.885004Z"
+    },
+    {
+      "key": "31712931b516db25d643748d",
+      "url": "https://www.nhl.com/news/vancouver-canucks-new-jersey-devils-game-recap-october-10-2026",
+      "fingerprint": "0a57decf680711c2",
+      "title_norm": "hischier, bratt lift devils past canucks",
+      "channel": "nhl-news",
+      "source_id": "nhl_latest",
+      "tier": 0,
+      "seen_at": "2026-10-10T22:45:31.559153Z"
+    },
+    {
+      "key": "40094f97828f4552883b32a5",
+      "url": "https://www.dailyfaceoff.com/players/news/michael-carcone/3864",
+      "fingerprint": "d0667424d34a921d",
+      "title_norm": "michael carcone (uta) — carcone (upper-body) will be out saturday vs. buffalo and is considered week-to-week.",
+      "channel": "injury-report",
+      "source_id": "daily_faceoff_injuries",
+      "tier": 1,
+      "seen_at": "2026-10-10T22:45:31.894677Z"
+    },
+    {
+      "key": "8c8d0c443bad8c8317bb79f7",
+      "url": "https://www.sportsnet.ca/nhl/article/canucks-fall-to-devils-suffer-second-consecutive-lopsided-defeat",
+      "fingerprint": "6b84cd71654ca3e1",
+      "title_norm": "canucks fall to devils, suffer second consecutive lopsided defeat",
+      "channel": "nhl-news",
+      "source_id": "sportsnet_nhl",
+      "tier": 1,
+      "seen_at": "2026-10-10T22:45:32.146873Z"
     }
   ],
   "known_sources": [
