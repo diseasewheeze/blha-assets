@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updated_at": "2026-10-10T20:00:39.843703Z",
+  "updated_at": "2026-10-10T20:15:38.421653Z",
   "seen": [
     {
       "key": "771ee594d7ce1ddf2592b005",
@@ -6732,6 +6732,26 @@
       "source_id": "sportsnet_nhl",
       "tier": 1,
       "seen_at": "2026-10-10T20:00:39.806204Z"
+    },
+    {
+      "key": "f0da95d1a4d7c5e277c4c3df",
+      "url": "https://www.sportsnet.ca/nhl/article/sharks-macklin-celebrini-returns-to-lineup-against-oilers",
+      "fingerprint": "49533c60bc51a1af",
+      "title_norm": "sharks' macklin celebrini returns to lineup against oilers",
+      "channel": "nhl-news",
+      "source_id": "sportsnet_nhl",
+      "tier": 1,
+      "seen_at": "2026-10-10T20:15:38.088255Z"
+    },
+    {
+      "key": "6bbc3eb94815142ada89c916",
+      "url": "https://www.sportsnet.ca/nhl/article/flyers-season-opening-skid-hits-six-in-blowout-loss-to-bruins",
+      "fingerprint": "68cf457adc721abb",
+      "title_norm": "flyers' season-opening skid hits six in blowout loss to bruins",
+      "channel": "nhl-news",
+      "source_id": "sportsnet_nhl",
+      "tier": 1,
+      "seen_at": "2026-10-10T20:15:38.405192Z"
     }
   ],
   "known_sources": [
