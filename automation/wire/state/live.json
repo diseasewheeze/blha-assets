@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updated_at": "2026-10-10T19:45:35.305221Z",
+  "updated_at": "2026-10-10T20:00:39.843703Z",
   "seen": [
     {
       "key": "771ee594d7ce1ddf2592b005",
@@ -6712,6 +6712,26 @@
       "source_id": "daily_faceoff_injuries",
       "tier": 1,
       "seen_at": "2026-10-10T19:45:35.020511Z"
+    },
+    {
+      "key": "4159d28f5b9d7a13ec28f45c",
+      "url": "https://www.nhl.com/news/philadelphia-flyers-boston-bruins-game-recap-october-10-2026",
+      "fingerprint": "71d7c1ad25513325",
+      "title_norm": "minten has three points, bruins keep flyers winless",
+      "channel": "nhl-news",
+      "source_id": "nhl_latest",
+      "tier": 0,
+      "seen_at": "2026-10-10T20:00:39.472408Z"
+    },
+    {
+      "key": "8bf6bc40240db1fd9440c064",
+      "url": "https://www.sportsnet.ca/hockey/nhl/games/df391ef3-cdcc-43c5-a7c1-f4dd87491d24",
+      "fingerprint": "cd365bc61907f810",
+      "title_norm": "oilers on sportsnet: edmonton vs. san jose",
+      "channel": "nhl-news",
+      "source_id": "sportsnet_nhl",
+      "tier": 1,
+      "seen_at": "2026-10-10T20:00:39.806204Z"
     }
   ],
   "known_sources": [
