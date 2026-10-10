@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updated_at": "2026-10-10T21:45:36.257782Z",
+  "updated_at": "2026-10-10T22:00:38.919039Z",
   "seen": [
     {
       "key": "771ee594d7ce1ddf2592b005",
@@ -6792,6 +6792,16 @@
       "source_id": "daily_faceoff_injuries",
       "tier": 1,
       "seen_at": "2026-10-10T21:45:36.221415Z"
+    },
+    {
+      "key": "f1c83853115f45b7e73844d6",
+      "url": "https://www.sportsnet.ca/nhl/article/why-maple-leafs-are-dressing-7-defencemen-vs-avalanche",
+      "fingerprint": "93b87766c3019fdb",
+      "title_norm": "why maple leafs are dressing 7 defencemen vs. avalanche",
+      "channel": "nhl-news",
+      "source_id": "sportsnet_nhl",
+      "tier": 1,
+      "seen_at": "2026-10-10T22:00:38.885004Z"
     }
   ],
   "known_sources": [
