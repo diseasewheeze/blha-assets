@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updated_at": "2026-10-10T20:15:38.421653Z",
+  "updated_at": "2026-10-10T20:30:33.532991Z",
   "seen": [
     {
       "key": "771ee594d7ce1ddf2592b005",
@@ -6752,6 +6752,16 @@
       "source_id": "sportsnet_nhl",
       "tier": 1,
       "seen_at": "2026-10-10T20:15:38.405192Z"
+    },
+    {
+      "key": "46bca996b65f84e3f9033143",
+      "url": "https://www.nhl.com/news/seattle-kraken-jacob-melanson-injury-status-update-october-10-2026",
+      "fingerprint": "720b60f7b5e43a88",
+      "title_norm": "melanson out indefinitely for kraken after aneurysm",
+      "channel": "breaking-news",
+      "source_id": "nhl_latest",
+      "tier": 0,
+      "seen_at": "2026-10-10T20:30:33.484648Z"
     }
   ],
   "known_sources": [
