@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updated_at": "2026-10-11T00:30:36.896749Z",
+  "updated_at": "2026-10-11T00:45:36.109845Z",
   "seen": [
     {
       "key": "771ee594d7ce1ddf2592b005",
@@ -6922,6 +6922,16 @@
       "source_id": "daily_faceoff_injuries",
       "tier": 1,
       "seen_at": "2026-10-11T00:30:36.830839Z"
+    },
+    {
+      "key": "681bc39f5253a26c8e1c205f",
+      "url": "https://www.sportsnet.ca/nhl/article/maple-leafs-chris-tanev-exits-vs-avalanche-with-upper-body-injury",
+      "fingerprint": "a721241a8b1c9da8",
+      "title_norm": "maple leafs' chris tanev exits vs. avalanche with upper-body injury",
+      "channel": "injury-report",
+      "source_id": "sportsnet_nhl",
+      "tier": 1,
+      "seen_at": "2026-10-11T00:45:36.078889Z"
     }
   ],
   "known_sources": [
