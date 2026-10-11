@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updated_at": "2026-10-11T03:00:39.878869Z",
+  "updated_at": "2026-10-11T03:30:35.345951Z",
   "seen": [
     {
       "key": "771ee594d7ce1ddf2592b005",
@@ -7112,6 +7112,16 @@
       "source_id": "sportsnet_nhl",
       "tier": 1,
       "seen_at": "2026-10-11T03:00:39.840515Z"
+    },
+    {
+      "key": "937447a9c9068ea09be64faf",
+      "url": "https://www.dailyfaceoff.com/players/news/cutter-gauthier/33248",
+      "fingerprint": "f01cfb059f86c4f4",
+      "title_norm": "cutter gauthier (ana) — gauthier (upper-body) left saturday's game vs. calgary and will not return.",
+      "channel": "injury-report",
+      "source_id": "daily_faceoff_injuries",
+      "tier": 1,
+      "seen_at": "2026-10-11T03:30:35.242794Z"
     }
   ],
   "known_sources": [
