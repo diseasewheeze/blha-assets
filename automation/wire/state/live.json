@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updated_at": "2026-10-11T03:30:35.345951Z",
+  "updated_at": "2026-10-11T03:45:38.849464Z",
   "seen": [
     {
       "key": "771ee594d7ce1ddf2592b005",
@@ -7122,6 +7122,16 @@
       "source_id": "daily_faceoff_injuries",
       "tier": 1,
       "seen_at": "2026-10-11T03:30:35.242794Z"
+    },
+    {
+      "key": "ec79b5171a2c6648d3969b5e",
+      "url": "https://www.nhl.com/news/utah-mammoth-buffalo-sabres-game-recap-october-10-2026",
+      "fingerprint": "7fe9c429a9fc614c",
+      "title_norm": "mammoth score four straight, pull away to defeat sabres",
+      "channel": "nhl-news",
+      "source_id": "nhl_latest",
+      "tier": 0,
+      "seen_at": "2026-10-11T03:45:38.768190Z"
     }
   ],
   "known_sources": [
