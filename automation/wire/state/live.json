@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updated_at": "2026-10-11T02:30:39.550231Z",
+  "updated_at": "2026-10-11T02:45:33.930738Z",
   "seen": [
     {
       "key": "771ee594d7ce1ddf2592b005",
@@ -7062,6 +7062,26 @@
       "source_id": "sportsnet_nhl",
       "tier": 1,
       "seen_at": "2026-10-11T02:30:39.118258Z"
+    },
+    {
+      "key": "a2b4ed2a01857ba7b1f6b2e7",
+      "url": "https://www.nhl.com/news/nashville-predators-ottawa-senators-game-recap-october-10-2026",
+      "fingerprint": "c8dfb22a2eb1261c",
+      "title_norm": "batherson ties it late, sens top preds in shootout",
+      "channel": "nhl-news",
+      "source_id": "nhl_latest",
+      "tier": 0,
+      "seen_at": "2026-10-11T02:45:33.548143Z"
+    },
+    {
+      "key": "897a32240a64ddd94fc9f695",
+      "url": "https://www.sportsnet.ca/nhl/article/senators-rally-to-beat-predators-in-shootout",
+      "fingerprint": "5bea7535c1769488",
+      "title_norm": "senators rally to beat predators in shootout",
+      "channel": "nhl-news",
+      "source_id": "sportsnet_nhl",
+      "tier": 1,
+      "seen_at": "2026-10-11T02:45:33.899293Z"
     }
   ],
   "known_sources": [
