@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updated_at": "2026-10-11T02:15:30.825076Z",
+  "updated_at": "2026-10-11T02:30:39.550231Z",
   "seen": [
     {
       "key": "771ee594d7ce1ddf2592b005",
@@ -7022,6 +7022,46 @@
       "source_id": "nhl_latest",
       "tier": 0,
       "seen_at": "2026-10-11T02:15:30.784028Z"
+    },
+    {
+      "key": "c352613b04950b5fed0692ab",
+      "url": "https://www.sportsnet.ca/nhl/video/saturday-headlines-dont-expect-connor-hellebuyck-to-rangers",
+      "fingerprint": "d1a9c24508c1b4b3",
+      "title_norm": "saturday headlines: don't expect connor hellebuyck to rangers",
+      "channel": "nhl-news",
+      "source_id": "sportsnet_nhl",
+      "tier": 1,
+      "seen_at": "2026-10-11T02:30:38.485666Z"
+    },
+    {
+      "key": "7ee4572d4290aa9af6792c32",
+      "url": "https://www.nhl.com/news/columbus-blue-jackets-st-louis-blues-game-recap-october-10-2026",
+      "fingerprint": "32d462bf7130b4de",
+      "title_norm": "berggren breaks tie in 3rd, blues defeat blue jackets",
+      "channel": "nhl-news",
+      "source_id": "nhl_latest",
+      "tier": 0,
+      "seen_at": "2026-10-11T02:30:38.743006Z"
+    },
+    {
+      "key": "5cabfe59aa1316c918655592",
+      "url": "https://www.nhl.com/news/detroit-red-wings-montreal-canadiens-game-recap-october-10-2026",
+      "fingerprint": "a541002bb4e20815",
+      "title_norm": "fowler makes 30 saves, canadiens defeat red wings in double shutout",
+      "channel": "nhl-news",
+      "source_id": "nhl_latest",
+      "tier": 0,
+      "seen_at": "2026-10-11T02:30:39.078916Z"
+    },
+    {
+      "key": "ccd6cf1791247e875f4a528b",
+      "url": "https://www.sportsnet.ca/hockey/nhl/games/645af688-2f34-4d0b-b88b-de05b621c085",
+      "fingerprint": "3a148ea097e210ac",
+      "title_norm": "saturday night hockey on sportsnet: calgary vs. anaheim",
+      "channel": "nhl-news",
+      "source_id": "sportsnet_nhl",
+      "tier": 1,
+      "seen_at": "2026-10-11T02:30:39.118258Z"
     }
   ],
   "known_sources": [
