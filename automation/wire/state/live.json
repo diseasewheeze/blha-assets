@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updated_at": "2026-10-10T23:30:40.110659Z",
+  "updated_at": "2026-10-11T00:30:36.896749Z",
   "seen": [
     {
       "key": "771ee594d7ce1ddf2592b005",
@@ -6902,6 +6902,26 @@
       "source_id": "nhl_latest",
       "tier": 0,
       "seen_at": "2026-10-10T23:30:40.018480Z"
+    },
+    {
+      "key": "7869cfae82c1229b27efabc9",
+      "url": "https://www.dailyfaceoff.com/players/news/oliver-ekman-larsson/1172",
+      "fingerprint": "dd529be3e87ee888",
+      "title_norm": "oliver ekman-larsson (tor) — ekman-larsson (undisclosed) will play vs. colorado on saturday.",
+      "channel": "injury-report",
+      "source_id": "daily_faceoff_injuries",
+      "tier": 1,
+      "seen_at": "2026-10-11T00:30:36.564559Z"
+    },
+    {
+      "key": "d46fac3b98e0f002e4bc427f",
+      "url": "https://www.dailyfaceoff.com/players/news/chris-tanev/1494",
+      "fingerprint": "91b458a03fe12ad0",
+      "title_norm": "chris tanev (tor) — tanev (upper-body) left saturday's game vs. colorado and will not return.",
+      "channel": "injury-report",
+      "source_id": "daily_faceoff_injuries",
+      "tier": 1,
+      "seen_at": "2026-10-11T00:30:36.830839Z"
     }
   ],
   "known_sources": [
