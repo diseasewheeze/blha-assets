@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updated_at": "2026-10-11T01:30:40.385843Z",
+  "updated_at": "2026-10-11T01:45:34.844102Z",
   "seen": [
     {
       "key": "771ee594d7ce1ddf2592b005",
@@ -6982,6 +6982,16 @@
       "source_id": "sportsnet_nhl",
       "tier": 1,
       "seen_at": "2026-10-11T01:30:40.357233Z"
+    },
+    {
+      "key": "dfdc1d9037f5f9b0986d1a49",
+      "url": "https://www.sportsnet.ca/nhl/article/canucks-among-teams-looking-at-flames-connor-zary",
+      "fingerprint": "7166af961e9ec71a",
+      "title_norm": "canucks among teams looking at flames' connor zary",
+      "channel": "nhl-news",
+      "source_id": "sportsnet_nhl",
+      "tier": 1,
+      "seen_at": "2026-10-11T01:45:34.810442Z"
     }
   ],
   "known_sources": [
