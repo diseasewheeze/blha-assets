@@ -1,7 +1,7 @@
 {
   "version": 1,
   "initialized": true,
-  "updated_at": "2026-10-11T01:15:35.206808Z",
+  "updated_at": "2026-10-11T01:30:40.385843Z",
   "seen": [
     {
       "key": "771ee594d7ce1ddf2592b005",
@@ -6962,6 +6962,26 @@
       "source_id": "sportsnet_nhl",
       "tier": 1,
       "seen_at": "2026-10-11T01:15:35.179072Z"
+    },
+    {
+      "key": "d1fefe8b39d1b56307c4fc84",
+      "url": "https://www.sportsnet.ca/nhl/article/could-alexander-nikishin-return-to-hurricanes",
+      "fingerprint": "78f4074d18c256a6",
+      "title_norm": "could alexander nikishin return to hurricanes?",
+      "channel": "nhl-news",
+      "source_id": "sportsnet_nhl",
+      "tier": 1,
+      "seen_at": "2026-10-11T01:30:40.030415Z"
+    },
+    {
+      "key": "0e734a3666df9fbbc337799f",
+      "url": "https://www.sportsnet.ca/nhl/article/kaprizov-has-hat-trick-wild-top-panthers-to-spoil-floridas-home-opener",
+      "fingerprint": "47236484282a727b",
+      "title_norm": "kaprizov has hat trick, wild top panthers to spoil florida's home opener",
+      "channel": "nhl-news",
+      "source_id": "sportsnet_nhl",
+      "tier": 1,
+      "seen_at": "2026-10-11T01:30:40.357233Z"
     }
   ],
   "known_sources": [
